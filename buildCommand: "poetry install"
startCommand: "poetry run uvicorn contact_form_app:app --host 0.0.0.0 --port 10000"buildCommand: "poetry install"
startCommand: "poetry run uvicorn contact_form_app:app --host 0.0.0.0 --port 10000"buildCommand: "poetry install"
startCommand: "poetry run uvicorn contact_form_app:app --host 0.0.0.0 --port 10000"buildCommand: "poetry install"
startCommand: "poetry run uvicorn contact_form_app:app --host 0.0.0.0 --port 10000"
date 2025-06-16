@@ -1,0 +1,2 @@
+buildCommand: "poetry install"
+startCommand: "poetry run uvicorn contact_form_app:app --host 0.0.0.0 --port 10000"
